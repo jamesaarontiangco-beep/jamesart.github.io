@@ -41,6 +41,7 @@ img {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
   letter-spacing: 0.02em;
+  white-space: nowrap; /* ← ADD THIS */
 }
 
 .nav-right a {
@@ -176,14 +177,18 @@ img {
   .nav-right {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
+    padding-top: 4px;
   }
 
   .nav-right a {
     margin-left: 0;
     font-size: 15px;
+    letter-spacing: 0.04em;
   }
 
+
 }
+
 
 
